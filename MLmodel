@@ -1,0 +1,23 @@
+artifact_path: /Users/priyankaswain/Desktop/mlops project/house-price-mlops/mlruns/0/models/m-eca02678538b4339a32a77a56d4811a9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-eca02678538b4339a32a77a56d4811a9
+model_size_bytes: 708
+model_uuid: m-eca02678538b4339a32a77a56d4811a9
+prompts: null
+run_id: a45251b0aedb42d99fcc9114cbaf42d4
+utc_time_created: '2026-03-15 18:22:54.020257'
